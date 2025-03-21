@@ -1,4 +1,10 @@
-# 🕹️ SummerCart64 Firmware & Deployer Updater (Windows)
+# 🕹️ SummerCart64 Auto Online Firmware-Updater & Deployer (Windows)
+
+![Shell](https://img.shields.io/badge/Shell-Batch-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
+![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercard64-online-auto-flasher?label=Latest%20Release)
 
 A fully automated Batch script to check, download, and update the latest **SummerCart64 firmware** and **sc64deployer tool** from the official GitHub repository.
 
@@ -31,14 +37,14 @@ No command line knowledge required.
 
 ---
 
-## 📦 Features
+## Features
 
-- 🔄 **Full automation** – checks, downloads, and flashes without any manual interaction
-- 🧠 **Smart version comparison** – skips downloads if your firmware is already up to date
-- 🧰 **Self-updating deployer** – keeps `sc64deployer.exe` fresh
-- 🎨 **Colored output** – easier to read status and warnings
-- 🧼 **Cleanups** temporary files after each run
-- ❗ **Error detection & guidance** – detects locked files, access denied errors, etc.
+- **Full automation** – checks, downloads, and flashes without any manual interaction
+- **Smart version comparison** – skips downloads if your firmware is already up to date
+- **Self-updating deployer** – keeps `sc64deployer.exe` fresh
+- **Colored output** – easier to read status and warnings
+- **Cleanups** temporary files after each run
+- **Error detection & guidance** – detects locked files, access denied errors, etc.
 
 ---
 
@@ -51,7 +57,7 @@ No command line knowledge required.
 
 ---
 
-## 🙏 Credits
+## Credits
 
 This script was built around:
 
