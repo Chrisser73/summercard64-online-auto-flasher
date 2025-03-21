@@ -1,5 +1,11 @@
 # 🕹️ SummerCart64 Firmware & Deployer Updater (Windows)
 
+![Shell](https://img.shields.io/badge/Shell-Batch-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-%F0%9F%94%A5-lightblue)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
+![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercard64-online-auto-flasher?label=Latest%20Release)
+
 A fully automated Batch script to check, download, and update the latest **SummerCart64 firmware** and **sc64deployer tool** from the official GitHub repository.
 
 This script ensures you're always using the **latest stable firmware version** and the corresponding **sc64deployer executable**, with minimal effort — just plug in and click.
