@@ -1,12 +1,6 @@
 # 🕹️ SummerCart64 Auto Online Firmware-Updater & Deployer (Windows)
 
 ![Shell](https://img.shields.io/badge/Shell-Batch-blue)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
-![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
-![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercard64-online-auto-flasher?label=Latest%20Release)
-
-![Shell](https://img.shields.io/badge/Shell-Batch-blue)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%F0%9F%94%A5-lightblue)
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
@@ -43,7 +37,7 @@ No command line knowledge required.
 
 ---
 
-## Features
+## 📦 Features
 
 - **Full automation** – checks, downloads, and flashes without any manual interaction
 - **Smart version comparison** – skips downloads if your firmware is already up to date
