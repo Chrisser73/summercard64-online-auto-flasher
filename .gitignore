@@ -1,0 +1,7 @@
+# Ignore temp and working files
+*.tmp
+*.log
+_latest_release.json
+_get_*.ps1
+_verout.tmp
+_deployer_info.tmp
