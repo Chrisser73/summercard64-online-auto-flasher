@@ -5,3 +5,4 @@ _latest_release.json
 _get_*.ps1
 _verout.tmp
 _deployer_info.tmp
+CONVERT_*.bat

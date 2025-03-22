@@ -6,9 +6,8 @@
 ![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
 ![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercard64-online-auto-flasher?label=Latest%20Release)
 
-A fully automated Batch script to check, download, and update the latest **SummerCart64 firmware** and **sc64deployer tool** from the official GitHub repository.
-
-This script ensures you're always using the **latest stable firmware version** and the corresponding **sc64deployer executable**, with minimal effort — just plug in and click.
+A fully automated firmware & deployer updater for **SummerCart64** users on Windows.  
+This tool checks online for the latest firmware and `sc64deployer.exe`, downloads and installs them if needed — all in one click.
 
 ---
 
@@ -26,14 +25,17 @@ This script ensures you're always using the **latest stable firmware version** a
 
 ## 🛠️ How to use
 
-> 📌 **Before running the script**, ensure the SummerCart64 cartridge is connected!
+> **Before running, make sure the SummerCart64 cartridge is plugged in via USB.**
 
-1. Plug your **SummerCart64** into a USB port on your PC.
-2. Wait until you hear the **Windows "connected" sound** confirming the USB device is recognized.
-3. Double-click the file named `UPDATER.bat`.
-4. Follow on-screen instructions — the script will handle the rest.
+1. Connect your **SummerCart64** cartridge to your PC via USB.
+2. Wait for the Windows **"device connected"** sound.
+3. Run the appropriate updater for your system:
+   - `SummerCart64 Online Updater (64 Bit).exe` → for most modern systems
+   - `SummerCart64 Online Updater (32 Bit).exe` → for older systems
+   - `UPDATER.bat` → for fallback/manual usage
+4. Follow the on-screen instructions — everything else is automatic!
 
-No command line knowledge required.
+> No command line knowledge required. Internet connection needed.
 
 ---
 
@@ -48,12 +50,14 @@ No command line knowledge required.
 
 ---
 
-## ⚠️ Notes & Tips
+## Tips & Troubleshooting
 
-- Do **not** run multiple instances of the updater simultaneously.
-- If flashing fails with a "file access denied" message, make sure no other instance of `sc64deployer.exe` or the firmware file is open.
-- The script requires **Internet access** to check for the latest release on GitHub.
-- **PowerShell is required**, but no admin rights are needed.
+- **Do not open multiple instances** of the updater simultaneously.
+- If flashing fails with "access denied" or "file is in use":
+  - Close all running instances of `sc64deployer.exe`
+  - Make sure the firmware `.bin` file isn't open elsewhere
+- Run from a folder with write permissions (e.g., not `C:\Program Files`)
+- PowerShell is required, but admin rights are **not** needed
 
 ---
 
@@ -63,8 +67,8 @@ This script was built around:
 
 - [SummerCart64 by Polprzewodnikowy](https://github.com/Polprzewodnikowy/SummerCart64)
 - Windows Batch scripting magic and PowerShell JSON parsing
-- Real-world frustration turned into automation ❤️
+- Real-world frustration turned into automation
 
 ---
 
-Made with ☕, ✨ and a few `"." kann syntaktisch nicht verarbeitet werden` errors.
+Made with ☕ and a few `"." kann syntaktisch nicht verarbeitet werden` errors.
