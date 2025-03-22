@@ -4,7 +4,8 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-%F0%9F%94%A5-lightblue)
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Auto-Update](https://img.shields.io/badge/Feature-Auto--Updater-brightgreen)
-![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercard64-online-auto-flasher?label=Latest%20Release)
+![GitHub Release](https://img.shields.io/github/v/release/Chrisser73/summercart64-online-auto-flasher?label=Latest%20Release)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 A fully automated firmware & deployer updater for **SummerCart64** users on Windows.  
 This tool checks online for the latest firmware and `sc64deployer.exe`, downloads and installs them if needed — all in one click.

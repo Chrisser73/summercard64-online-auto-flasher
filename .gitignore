@@ -1,6 +1,8 @@
 # Ignore temp and working files
 *.tmp
 *.log
+RELEASE*
+*.zip
 _latest_release.json
 _get_*.ps1
 _verout.tmp
